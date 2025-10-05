@@ -1,7 +1,7 @@
 // Text Berjalan
 const textEl = document.getElementById('text')
 const texts = [
-    'Official Fanbase JKT48 Regional Pekanbaru',
+    '1st Fanbase JKT48 From Pekanbaru,Riau',
     'Ayo Bergabung Bersama Kami!',
     'Dukung JKT48 Bersama!'
 ]
@@ -44,4 +44,5 @@ document.addEventListener('contextmenu', function (e) {
 
 // Year
 document.getElementById('year').textContent = new Date().getFullYear();
+
 
