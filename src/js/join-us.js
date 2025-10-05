@@ -14,7 +14,7 @@ const iframe = document.getElementById('gform');
 // Text Berjalan
 const textEl = document.getElementById('text')
 const texts = [
-    'Official Fanbase JKT48 Regional Pekanbaru',
+    '1st Fanbase JKT48 From Pekanbaru,Riau',
     'Ayo Bergabung Bersama Kami!',
     'Dukung JKT48 Bersama!'
 ]
@@ -43,4 +43,5 @@ function writeText() {
 writeText()
 
 // Year
+
 document.getElementById('year').textContent = new Date().getFullYear();
